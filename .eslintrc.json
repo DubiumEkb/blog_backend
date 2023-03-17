@@ -1,0 +1,56 @@
+{
+	"env": {
+		"node": true,
+		"es2022": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"plugins": [
+		"@typescript-eslint",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2022,
+		"sourceType": "module"
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"no-console": "off",
+		"strict": [
+			"error",
+			"global"
+		],
+		"no-dupe-class-members": "error",
+		"no-var": "error",
+		"no-unused-vars": "off",
+		"array-callback-return": "warn",
+		"no-class-assign": "error",
+		"no-debugger": "warn",
+		"no-dupe-args": "warn",
+		"no-dupe-else-if": "warn",
+		"no-dupe-keys": "error",
+		"no-duplicate-case": "error",
+		"no-duplicate-imports": "warn",
+		"no-import-assign": "warn",
+		"no-promise-executor-return": "warn",
+		"no-prototype-builtins": "warn",
+		"no-template-curly-in-string": "error",
+		"@typescript-eslint/no-var-requires": "off"
+	},
+	"overrides": [
+		{
+			"files": [
+				"*.js"
+			],
+			"rules": {
+				"@typescript-eslint/no-var-requires": "off"
+			}
+		}
+	],
+	"settings": {}
+}

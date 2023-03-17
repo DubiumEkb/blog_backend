@@ -1,0 +1,20 @@
+# Ignore yarn.lock file
+yarn.lock
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .pnp.* files
+.pnp.*
+
+# Ignore build output
+build/
+
+# Ignore VS Code files
+.vscode/
+
+# Ignore logs
+logs/
+
+# Ignore .DS_Store files
+.DS_Store
