@@ -1,6 +1,6 @@
 {
   "name": "blog_backend",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Backend блога",
   "main": "index.js",
   "repository": "git@github.com:DubiumEkb/blog_backend.git",
@@ -25,7 +25,8 @@
     "express-validator": "^6.15.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.2",
-    "open": "^8.4.2"
+    "open": "^8.4.2",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.1.1",

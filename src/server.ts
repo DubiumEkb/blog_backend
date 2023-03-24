@@ -31,7 +31,7 @@ const start = async () => {
 			console.log(`⚡️[server]: Server is running at ${config.apiUrl}:${config.port}`)
 
 			if (!browserOpened) {
-				open(`${config.apiUrl}:${config.port}`)
+				// open(`${config.apiUrl}:${config.port}`)
 				browserOpened = true
 			}
 		})

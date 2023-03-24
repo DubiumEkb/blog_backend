@@ -1,7 +1,7 @@
-import { Request, Response, Router } from "express"
+import { Router } from "express"
 
-import Posts from "../../domain/models/Posts"
+import { Posts } from "./posts"
 
 export const Routes: Router = Router()
 
-Routes.get("/posts", Posts.GET)
+Routes.use("/posts", Posts)
