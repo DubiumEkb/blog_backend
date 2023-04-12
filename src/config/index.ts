@@ -11,6 +11,5 @@ export default {
 	apiUrl: process.env.API_URL,
 	clientUrl: process.env.CLIENT_URL,
 	port: parseInt(process.env.PORT || "5000", 10),
-	jwt_access_secret: process.env.JWT_ACCESS_SECRET,
-	jwt_refresh_secret: process.env.JWT_REFRESH_SECRET,
+	jwt: process.env.JWT_SECRET,
 }

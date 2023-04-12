@@ -1,6 +1,8 @@
 export interface ITag {
+	_id: string
 	name: string
 	url: string
+	status: boolean
 }
 
 export interface IUser {
