@@ -21,3 +21,4 @@ logs/
 
 # Configs
 src/config/env/development.env
+src/config/env/production.env
