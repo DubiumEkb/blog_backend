@@ -20,5 +20,6 @@ logs/
 .DS_Store
 
 # Configs
+src/config/env/
 src/config/env/production.env
 src/config/env/development.env
