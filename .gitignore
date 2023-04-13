@@ -20,5 +20,5 @@ logs/
 .DS_Store
 
 # Configs
-src/config/env/production.env
-src/config/env/development.env
+config/env/production.env
+config/env/development.env
